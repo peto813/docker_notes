@@ -17,3 +17,11 @@ docker image ls
 docker container ls
 docker container ls --all
 docker container ls -aq
+
+
+Introduction
+It’s time to begin building an app the Docker way. We start at the bottom of the hierarchy of such app, a container, which this page covers. Above this level is a service, which defines how containers behave in production, covered in Part 3. Finally, at the top level is the stack, defining the interactions of all the services, covered in Part 5.
+
+Stack
+Services
+Container (you are here)
